@@ -59,6 +59,7 @@ nav ul a:hover {
 
 .mobile-nav-categories {
     color: #de0b7c;
+    cursor: default;
 }
 
 .mobile-links:active {
