@@ -49,6 +49,28 @@ nav ul a:hover {
     color: #fff !important;
 }
 
+#menu-icon {
+    color: #333;
+}
+
+.sidenav-overlay {
+    z-index: 99 !important;
+}
+
+.mobile-nav-categories {
+    color: #de0b7c;
+}
+
+.mobile-links:active {
+    background-color: #0395de !important;
+    color: #fff;
+}
+
+.mobile-links:hover {
+    background-color: #0395de !important;
+    color: #fff;
+}
+
 .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
     color: #333;
 }

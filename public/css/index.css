@@ -75,6 +75,14 @@ button:hover {
     font-style: italic;
 }
 
+#top {
+    background-color: #de0b7c;
+}
+
+#top:hover {
+    background-color: #c9006c;
+}
+
 @media (max-width: 768px) {
     .product-image {
         text-align: center;
