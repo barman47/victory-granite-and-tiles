@@ -1,0 +1,86 @@
+.slides {
+    max-height: 900px !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #de0b7c !important;
+}
+
+#products-showcase .container {
+    padding: 20px;
+}
+
+.product-image {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.product-image:hover {
+    box-shadow: 4px 4px 10px gray;
+}
+
+.materialboxed {
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 40px;
+}
+
+img.responsive-img {
+    height: 350px !important;
+}
+
+h4 {
+    color: #e87910;
+}
+
+h6 {
+    color: #666;
+    font-size: 17px;
+    text-align: center;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+button {
+    background-color: #e87910 !important;
+}
+
+button:hover {
+    background-color: #c76100 !important;
+}
+
+#findUs {
+    height: 400px;
+    width: 100%;
+}
+
+.page-footer {
+    background-color: #fff;
+    color: #444 !important;
+}
+
+.page-footer .footer-copyright {
+    background-color: #fff;
+    color: #444 !important;
+    border-top: 2px solid #f5f5f5;
+}
+
+#vegis {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .product-image {
+        text-align: center;
+    }   
+
+    h4 {
+        font-size: 18px;
+    }
+}

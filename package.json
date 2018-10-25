@@ -1,0 +1,26 @@
+{
+  "name": "victory-granite-and-tiles",
+  "version": "1.0.0",
+  "description": "A website for Victory granite and tiles Company",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^3.0.0"
+  },
+  "engines": {
+    "node": "^8.12.0",
+    "npm": "^6.4.1"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "WebDevelopment",
+    "JavaScript",
+    "express"
+  ],
+  "author": "Uzoanya Dominic",
+  "license": "MIT"
+}
