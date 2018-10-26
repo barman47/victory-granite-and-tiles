@@ -47,11 +47,50 @@ form {
     padding: 10px;
 }
 
+.input-field label {
+    color: #333 !important;
+}
+
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field textarea:focus + label {
+    color: #c76100 !important;
+}
+  /* label underline focus color */
+  .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field textarea:focus {
+    border-bottom: 1px solid #c76100 !important;
+    box-shadow: 0 1px 0 0 #c76100 !important;
+}
+  
+.input-field input[type=text].valid, .input-field input[type=email].valid, .input-field textarea.valid {
+    border-bottom: 1px solid #4CAF50 !important;
+    box-shadow: 0 1px 0 0 #4CAF50 !important;
+}
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #f00 !important;
+}
+
+.input-field .prefix {
+    color: #777;
+}
+
+.input-field .prefix.active {
+    color: #c76100;
+}
+
 button {
     background-color: #e87910 !important;
 }
 
-button:hover {
+.view-more {
+    background-color: #c76100;
+    top: 200px !important;
+}
+
+.view-more:visited {
+    background-color: #c76100;
+}
+
+.view-more:hover, button:hover {
     background-color: #c76100 !important;
 }
 

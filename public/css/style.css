@@ -94,11 +94,25 @@ nav.nav-extended .nav-wrapper {
 
 .dropdown-content li {
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
 }
 
 @media (max-width: 768px) {
+    #logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
     .product-image {
         text-align: center;
     }   
+    #menu-icon {
+        font-size: 200%;
+        margin-top: 15px;
+    }
+    #parallax {
+        display: none;
+    }
+    h3 {
+        font-size: 20px; 
+    }
 }

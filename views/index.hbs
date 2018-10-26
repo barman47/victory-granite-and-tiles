@@ -5,39 +5,37 @@
             <li>
                 <img class="slides" src="/img/slide1.jpg" alt="Slide 1">
                 <div class="caption center-align">
-                    <h3>Best Trends</h3>
-                    <h5 class="section light red-text text-darken-3" style="background-color: rgba(255, 255, 255, 0.5);">A good way to make your flow more fun</h5>
+                    <h3 style="color: #c30068; font-weight: lighter;">Victory Granites and Tiles</h3>
+                    <h5 class="section light" style="color: rgba(0, 0, 0, .8); background-color: rgba(255, 255, 255, 0.5);"><em>Amplify the beauty of your Home...</em></h5>
                 </div>
             </li>		
             <li>
                 <img class="slides" src="/img/slide2.jpg" alt="Slide 2">
                 <div class="caption center-align">
-                    <h3>Best Trends</h3>
-                    <h5 class="section light red-text text-darken-3" style="background-color: rgba(255, 255, 255, 0.5);">A good way to make your flow more fun</h5>
+                    <h3 class="section light" style="color: #363343; text-transform: capitalize;">we define comfort...</h3>
                 </div>
             </li>		
             <li>
                 <img class="slides" src="/img/slide3.jpg" alt="Slide 3">
                 <div class="caption center-align">
-                    <h3>Best Trends</h3>
-                    <h5 class="section light red-text text-darken-3" style="background-color: rgba(255, 255, 255, 0.5);">A good way to make your flow more fun</h5>
+                    <h3 style="position: relative; top: 25px !important;">Home Furniture, <br>with Exquisite Taste</h3>
                 </div>
             </li>		
             <li>
                 <img class="slides" src="/img/slide4.jpg" alt="Slide 4">
                 <div class="caption center-align">
-                    <h3>Best Trends</h3>
-                    <h5 class="section light red-text text-darken-3" style="background-color: rgba(255, 255, 255, 0.5);">A good way to make your flow more fun</h5>
+                    <h3>Make your House a Home</h3>
+                    <h5 class="section light" style="position:relative; top: 150px !important; background-color: rgba(3, 155, 229, .6); color: #fff;">We offer the best!</h5>
                 </div>
             </li>		
             <li>
                 <img class="slides" src="/img/slide5.jpg" alt="Slide 5">
                 <div class="caption center-align">
-                    <h3>Best Trends</h3>
-                    <h5 class="section light red-text text-darken-3" style="background-color: rgba(255, 255, 255, 0.5);">A good way to make your flow more fun</h5>
+                    <a class="ajaxLink btn waves-effect waves-light view-more" href="#target" data-href="/partials/bedroom-furniture.html">See More Furniture</a>
                 </div>
             </li>				
         </ul>
+
     </div>
 </div>
 <div class="scrollspy" id="target"></div>
@@ -85,14 +83,14 @@
             </div>
             <div class="col s12 l3 m6 product-image">
                 <div>
-                    <img src="/img/office-furniture.jpg" alt="Office Furniture" class="materialboxed responsive-img">
-                    <h6>Office Furniture</h6>
+                    <img src="/img/marble-side-stool.jpg" alt="Marble Side Stool" class="materialboxed responsive-img">
+                    <h6>Marble Side Stool</h6>
                 </div>
             </div>
             <div class="col s12 l3 m6 product-image">
                 <div>
-                    <img src="/img/roofing-tiles.jpg" alt="Roofing Tiles" class="materialboxed responsive-img">
-                    <h6>Roofing Tiles</h6>
+                    <img src="/img/granite-table.jpeg" alt="Granite Table" class="materialboxed responsive-img">
+                    <h6>Granite Table</h6>
                 </div>
             </div>
         </div>
@@ -111,8 +109,9 @@
                     <div class="row">
                         <div class="col s12 input-field">
                             <i class="mdi mdi-alphabetical prefix"></i>
-                            <input type="text" name="customerName" id="customerName">
+                            <input type="text" name="customerName" id="customerName" class="validate">
                             <label for="customerName">Name</label>
+                            <span class="helper-text" data-error="Please provide your name" data-success="Okay"></span>
                         </div>
                     </div>
                     <div class="row">
@@ -120,18 +119,21 @@
                             <i class="mdi mdi-email-outline prefix"></i>
                             <input type="email" name="email" id="email">
                             <label for="email">Email</label>
+                            <span class="helper-text" data-error="Invalid Email" data-success="Okay"><em>Email is Optional</em></span>
                         </div>
                         <div class="col s12 l6 input-field">
                             <i class="mdi mdi-phone prefix"></i>
-                            <input type="text" name="phone" id="phone">
+                            <input type="text" name="phone" id="phone" class="validate">
                             <label for="phone">Phone</label>
+                            <span class="helper-text" data-error="Please provide a valid phone number" data-success="Okay"></span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s12 input-field">
                             <i class="mdi mdi-comment-outline prefix"></i>
-                            <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                            <textarea name="message" id="message" class="materialize-textarea validate"></textarea>
                             <label for="message">Product Request...</label>
+                            <span class="helper-text" data-error="Please fill this input" data-success="Okay"></span>
                         </div>
                     </div>
                     <div class="row">
@@ -144,9 +146,18 @@
         </div>
     </div>
 </div>
-<div>
+<div id="parallax">
     <div class="parallax-container">
-        <div class="parallax"><img src="/img/parallax.jpg" class="responsive-img" alt="parallax"></div>
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row left">
+                    <h3 class="center" style="margin-top: 70px; color: #fff; background-color: rgba(195, 0, 104, .5); padding: 10px 40px;" class="col s12">A Palace is in its Furniture</h3>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img src="/img/parallax.jpg" class="responsive-img" alt="parallax">
+        </div>
     </div>
 </div>
 <div>
