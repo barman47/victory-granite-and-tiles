@@ -20,7 +20,8 @@ nav {
 nav ul a{
     color: #333;
     margin: 12px 0 12px 0;
-    font-size: 11px;
+    font-size: 12px;
+    font-family: "Krub", sans-serif;
 }
 
 nav ul a:hover {
@@ -51,6 +52,10 @@ nav ul a:hover {
 
 #menu-icon {
     color: #333;
+}
+
+.sidenav li>a {
+    font-family: "Krub", sans-serif;
 }
 
 .sidenav-overlay {
@@ -117,5 +122,8 @@ nav.nav-extended .nav-wrapper {
     }
     nav.nav-extended .nav-wrapper {
         height: 70px !important;
+    }
+    #footer-text {
+        font-family: 'Open Sans Condensed', sans-serif;
     }
 }
