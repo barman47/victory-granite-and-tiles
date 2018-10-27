@@ -24,7 +24,7 @@ nav ul a{
 }
 
 nav ul a:hover {
-    background: #f5f5f5;
+    background: none;
     color: #0395de;
 }
 
@@ -114,5 +114,8 @@ nav.nav-extended .nav-wrapper {
     }
     h3 {
         font-size: 20px; 
+    }
+    nav.nav-extended .nav-wrapper {
+        height: 70px !important;
     }
 }

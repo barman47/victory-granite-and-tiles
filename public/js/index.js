@@ -116,6 +116,7 @@ $(document).ready(function () {
             $('.materialboxed').materialbox();
             $('#products-showcase').remove();
             $('.scrollspy').scrollSpy();
+            $('.sidenav').sidenav('close');
         });
     }
 
