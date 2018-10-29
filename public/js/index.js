@@ -110,16 +110,18 @@ $(document).ready(function () {
     };
 
     function fetchContent (event) {
-        document.querySelector('.preloader-wrapper').style.display = 'block';
+        $('.preloader-wrapper').css('display', 'block');
         var url = event.target.dataset.href;
         $('#target').empty();
         $( "#target" ).load(url, function() {
+            $('.preloader-wrapper').css('display', 'none');
             $('.materialboxed').materialbox();
             $('#products-showcase').remove();
             $('.scrollspy').scrollSpy();
             $('.sidenav').sidenav('close');
+
         });
-        document.querySelector('.preloader-wrapper').style.display = 'none';
+        // document.querySelector('.preloader-wrapper').style.display = 'none';
     }
 
     email.addEventListener('keyup', function () {
