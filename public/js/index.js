@@ -112,9 +112,9 @@ $(document).ready(function () {
     function fetchContent (event) {
         var url = event.target.dataset.href;
         $('#target').empty();
+        $('#products-showcase').remove();
         $('.preloader-wrapper').css('display', 'block');
         $( "#target" ).load(url, function() {
-            $('#products-showcase').remove();
             $('.scrollspy').scrollSpy();
             $('.materialboxed').materialbox();
             $('.preloader-wrapper').css('display', 'none');
