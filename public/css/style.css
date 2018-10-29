@@ -82,8 +82,10 @@ nav ul a:hover {
 }
 
 #logo {
-    max-width: 130px;
-    max-height: 130px;
+    max-width: 320px;
+    max-height: 90px;
+    /* max-width: 130px;
+    max-height: 130px; */
 }
 nav .brand-logo {
     color: #333;
@@ -104,8 +106,8 @@ nav.nav-extended .nav-wrapper {
 
 @media (max-width: 768px) {
     #logo {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 200px;
+        max-height: 70px;
     }
     .product-image {
         text-align: center;

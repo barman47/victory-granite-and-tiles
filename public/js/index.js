@@ -110,6 +110,7 @@ $(document).ready(function () {
     };
 
     function fetchContent (event) {
+        document.querySelector('.preloader-wrapper').style.display = 'block';
         var url = event.target.dataset.href;
         $('#target').empty();
         $( "#target" ).load(url, function() {
@@ -118,6 +119,7 @@ $(document).ready(function () {
             $('.scrollspy').scrollSpy();
             $('.sidenav').sidenav('close');
         });
+        document.querySelector('.preloader-wrapper').style.display = 'none';
     }
 
     email.addEventListener('keyup', function () {
