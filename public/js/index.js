@@ -114,13 +114,22 @@ $(document).ready(function () {
         var url = event.target.dataset.href;
         $('#target').empty();
         $( "#target" ).load(url, function() {
-            $('.preloader-wrapper').css('display', 'none');
-            $('.materialboxed').materialbox();
             $('#products-showcase').remove();
             $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+            $('.preloader-wrapper').css('display', 'none');
+            
             $('.sidenav').sidenav('close');
 
         });
+        // $( "#target" ).load(url, function() {
+        //     $('.preloader-wrapper').css('display', 'none');
+        //     $('.materialboxed').materialbox();
+        //     $('#products-showcase').remove();
+        //     $('.scrollspy').scrollSpy();
+        //     $('.sidenav').sidenav('close');
+
+        // });
         // document.querySelector('.preloader-wrapper').style.display = 'none';
     }
 
