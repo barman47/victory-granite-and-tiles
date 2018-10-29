@@ -110,9 +110,9 @@ $(document).ready(function () {
     };
 
     function fetchContent (event) {
-        $('.preloader-wrapper').css('display', 'block');
         var url = event.target.dataset.href;
         $('#target').empty();
+        $('.preloader-wrapper').css('display', 'block');
         $( "#target" ).load(url, function() {
             $('#products-showcase').remove();
             $('.scrollspy').scrollSpy();
