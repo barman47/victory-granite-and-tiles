@@ -185,12 +185,21 @@ button {
     background-color: #c9006c;
 }
 
+#spinner-container {
+    position: absolute;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    z-index: 999 !important;
+    display: none;
+}
+
 .preloader-wrapper {
     position: fixed;
     top: 50vh;
     left: 50vw;
-    z-index: 99;   
-    display: none;
+    /* z-index: 99;   
+    display: none; */
 }
 
 @media (max-width: 768px) {

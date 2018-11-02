@@ -113,11 +113,11 @@ $(document).ready(function () {
         var url = event.target.dataset.href;
         $('#target').empty();
         $('#products-showcase').remove();
-        $('.preloader-wrapper').css('display', 'block');
+        $('#spinner-container').css('display', 'block');
         $( "#target" ).load(url, function() {
             $('.scrollspy').scrollSpy();
             $('.materialboxed').materialbox();
-            $('.preloader-wrapper').css('display', 'none');
+            $('#spinner-container').css('display', 'none');
             
             $('.sidenav').sidenav('close');
 
