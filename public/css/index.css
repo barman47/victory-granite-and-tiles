@@ -7,14 +7,14 @@
 }
 
 #slide1-header {
-    color: #c30068;  
-    font-weight: lighter; 
+    color: #c30068;
+    font-weight: lighter;
     font-family: 'Krub', sans-serif;
     /* font-family: 'Montserrat', sans-serif;  */
 }
 
 #slide2-header {
-    color: #363343; 
+    color: #363343;
     text-transform: capitalize;
     font-family: 'Inconsolata', monospace;
     border-bottom: 3px solid #c30068;
@@ -24,7 +24,7 @@
     border-left: 3px solid #fff;
     font-family: 'Montserrat', sans-serif;
     margin-left: 20px !important;
-    position: relative; 
+    position: relative;
     top: 25px !important;
     padding: 0 !important;
 }
@@ -34,9 +34,9 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 #slide4-subtitle {
-    position:relative; 
-    top: 150px !important; 
-    background-color: rgba(3, 155, 229, .6); 
+    position:relative;
+    top: 150px !important;
+    background-color: rgba(3, 155, 229, .6);
     color: #fff;
     font-family: 'Handlee', cursive;
 }
@@ -109,7 +109,7 @@ input, textarea, #messageButton {
     border-bottom: 1px solid #c76100 !important;
     box-shadow: 0 1px 0 0 #c76100 !important;
 }
-  
+
 .input-field input[type=text].valid, .input-field input[type=email].valid, .input-field textarea.valid {
     border-bottom: 1px solid #4CAF50 !important;
     box-shadow: 0 1px 0 0 #4CAF50 !important;
@@ -154,9 +154,9 @@ button {
 }
 
 #parallax-text {
-    margin-top: 70px; 
-    color: #fff; 
-    background-color: rgba(195, 0, 104, .8); 
+    margin-top: 70px;
+    color: #fff;
+    background-color: rgba(195, 0, 104, .8);
     padding: 10px 40px;
     font-family: 'Krub', sans-serif;
     border-left: 3px solid #fff;
@@ -176,6 +176,25 @@ button {
 #vegis {
     font-style: italic;
 }
+
+#vegis a {
+    color: #444;
+}
+
+#vegis a:visited {
+    color: #444;
+}
+
+#vegis a:hover {
+    color: #039be5;
+    text-decoration: underline;
+}
+
+#vegis a:active {
+    color: #c9006c;
+}
+
+
 
 #top {
     background-color: #de0b7c;
@@ -198,14 +217,14 @@ button {
     position: fixed;
     top: 50vh;
     left: 50vw;
-    /* z-index: 99;   
+    /* z-index: 99;
     display: none; */
 }
 
 @media (max-width: 768px) {
     .product-image {
         text-align: center;
-    }   
+    }
 
     h4 {
         font-size: 18px;
